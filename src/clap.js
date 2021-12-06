@@ -6,6 +6,7 @@ class Clap extends Component {
     this.intervalID = null;
     this.minValue = 10;
     this.maxValue = 218;
+    this.ini     = "null"
     this.state = { inputValue: 100, isPlaying: false };
     this.increaseCount = this.increaseCount.bind(this);
     this.decreaseCount = this.decreaseCount.bind(this);
