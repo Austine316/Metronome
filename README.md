@@ -2,4 +2,4 @@
 
 A metronome is a device that produces an audible click or other sound at a regular intervals.
 
-See app using the link 
+See app using the <a href = "https://austine316.github.io/metronome" target = "_blank"> link <a/> 
