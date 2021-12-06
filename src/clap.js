@@ -1,6 +1,6 @@
-import React from "react";
+import React, {Component} from "react"
 
-class Clap extends React.Component {
+class Clap extends Component {
   constructor(props) {
     super(props);
     this.intervalID = null;
@@ -79,7 +79,7 @@ class Clap extends React.Component {
   render() {
     return (
       <div className="card">
-        <h1>Metronome</h1>
+        <h2>Metronome</h2>
         <h1>{this.state.inputValue}BPM</h1>
         <div className="rangeContainer">
           <button className="count" onClick={this.decreaseCount}>
