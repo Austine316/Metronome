@@ -1,18 +1,17 @@
 .App {
   text-align: center;
+  padding: 0;
 }
 
 .card {
   background-color: white;
-  box-shadow: 1px 1px 4px #ccc;
-  max-width: 90%;
+  /* box-shadow: 1px 1px 4px #ccc; */
+  max-width: 800px;
   height: 400px;
   margin: auto;
   margin-top: 20vh;
   border-radius: 10px;
-  border: 1px solid #ccc;
-  padding: 20px;
-  /* background-color: green; */
+  padding: 1rem;
 }
 
 .range {
@@ -21,17 +20,13 @@
 
 .rangeContainer {
   display: flex;
-  /* background-color: yellow; */
   align-items: center;
 }
 
 .audioControlButton {
-  /* margin-top: 20px; */
   height: 50px;
   width: 80px;
-  /* background-color: rgb(43, 43, 185); */
   color: white;
-  /* border-radius: 5px; */
   font-family: "Roboto";
   font-weight: 400;
   border: none;
@@ -40,27 +35,14 @@
 
 .count {
   background-color: white;
-  font-size: 30px;
+  font-size: 50px;
   cursor: pointer;
   border-radius: 5px;
   border: 0;
-  /* padding-bottom: 20px; */
   outline: 0;
 }
 
 .rangeContainer {
   text-align: center;
-  /* background-color: yellow; */
 }
 
-/* .card input {
-  height: 5px;
-  background-color: black;
-} */
-
-/* @media screen and (-webkit-min-device-pixel-ratio: 0) {
-  .card input[type="range"] {
-    height: 2px;
-    background-color: #9a905d;
-  }
-} */
