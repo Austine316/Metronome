@@ -5,13 +5,14 @@
 .card {
   background-color: white;
   box-shadow: 1px 1px 4px #ccc;
-  width: 60%;
+  max-width: 90%;
   height: 400px;
   margin: auto;
   margin-top: 20vh;
   border-radius: 10px;
   border: 1px solid #ccc;
   padding: 20px;
+  /* background-color: green; */
 }
 
 .range {
@@ -57,11 +58,9 @@
   background-color: black;
 } */
 
-@media screen and (-webkit-min-device-pixel-ratio: 0) {
+/* @media screen and (-webkit-min-device-pixel-ratio: 0) {
   .card input[type="range"] {
     height: 2px;
-    /* overflow: hidden; */
-    /* -webkit-appearance: none; */
     background-color: #9a905d;
   }
-}
+} */
